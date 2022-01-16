@@ -1,7 +1,7 @@
 # NLP-and-co-occurrence-matrix
 build the co-occurrence matrix as required in Manning's workshop
 
- The purpose of this code is to build co-occurrence matrix for a given corpus
+ The purpose of this code is to build the co-occurrence matrix for a given corpus
 reference : Prof C. Manning https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ
 
 A toy corpus is defined and next a co-occurrence matrix is built which has in each row the index of a unique word in the corpus, set as center word, and in each column the number
