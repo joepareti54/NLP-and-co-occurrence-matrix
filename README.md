@@ -20,8 +20,10 @@ as of 1-15-2022 I tested win =1 and win =2
 s_corpus is the sorted corpus that contains unique words
 
 W is the dictionary with: keys = unique words in the sorted corpus of uique words, and values = index of those words
+
  {'<END>': 0, '<START>': 1, etc
-The W dictionary is used to address each word in the corpus and associate an index which is used to build M
+
+ The W dictionary is used to address each word in the corpus and associate an index which is used to build M
 
 M_INDX is a 2D matrix where
  each row is the word index
