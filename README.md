@@ -37,10 +37,13 @@ the values are the column indeces where M needs to be increased + 1
  for each center word, which is the inner for loop, there are left (ISTART) and right (IEND) words
 
  count is the array to be incremented as a new column index needs to be stored in the matrix of column indeces
+ 
  each row corresponding to a different word will have a different number of column indeces, hence count has to be a 1d array
 
  the column index is obtained as lookup in the W dictionary with key = the word being in process
- because the column indeces are stored progressively along the word row, the count variable needs to be increased by 1
+ 
+ because the column indeces are stored progressively along the word row, the count variable needs to be increased by 1;
+ 
  the code stores only the indeces because it must be cleaned up before applying to the co-occurrence
 
 
