@@ -21,7 +21,7 @@ s_corpus is the sorted corpus that contains unique words
 
 W is the dictionary with: keys = unique words in the sorted corpus of uique words, and values = index of those words
 
- {ED_TOKEN: 0, START_TOKEN: 1, etc
+ {END_TOKEN: 0, START_TOKEN: 1, etc
 
  The W dictionary is used to address each word in the corpus and associate an index which is used to build M
 
