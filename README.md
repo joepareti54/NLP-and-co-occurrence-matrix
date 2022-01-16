@@ -31,7 +31,7 @@ M_INDX is a 2D matrix where:
 
 the values are the column indeces where M needs to be increased + 1
 
- the core process includes 2 nested loops: over sentences, and over word in a sentence for the given corpus;
+ the core process includes 2 nested loops: over the sentences, and over the words in a sentence for the given corpus;
  inside the 2 nested loops, there is a while loop on window because we need the column indeces to be increased by 1
 
  for each center word, which is the inner for loop, there are left (ISTART) and right (IEND) words
