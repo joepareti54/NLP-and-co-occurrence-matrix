@@ -25,9 +25,11 @@ W is the dictionary with: keys = unique words in the sorted corpus of unique wor
 
  The W dictionary is used to address each word in the corpus and associate an index which is used to build M
 
-M_INDX is a 2D matrix where
+M_INDX is a 2D matrix where:
+
  each row is the word index
- the values are the column indecs where M needs to be added + 1
+
+the values are the column indeces where M needs to be increased + 1
 
  the core process includes 2 nested loops: over sentences, and over word in a sentence for the given corpus;
  inside the 2 nested loops, there is a while loop on window because we need the column indeces to be increased by 1
