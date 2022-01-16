@@ -58,4 +58,4 @@ In the final for loop:
  
  the rows are converted to list because it is easier to handle the redundant values in list
 
-Because at this stage the lists are containing the right occurrences of the uniqe word, the list values are used to increment the M positions for the column index
+Because at this stage the lists are containing the right occurrences of the unique word, the list values are used to increment the M positions for the column index
