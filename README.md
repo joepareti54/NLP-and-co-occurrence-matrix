@@ -55,5 +55,7 @@ This is meant to retain multiple occurrences of important words, while retaining
 
 In the final for loop:
  i is the row index that also indexes the word in s_corpus
+ 
  the rows are converted to list because it is easier to handle the redundant values in list
+
 Because at this stage the lists are containing the right occurrences of the uniqe word, the list values are used to increment the M positions for the column index
